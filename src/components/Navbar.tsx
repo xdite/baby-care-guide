@@ -84,6 +84,16 @@ export const Navbar: React.FC = () => {
             >
               疾病照護
             </Link>
+            <Link
+              to="/milestone"
+              className={`px-3 py-2 rounded-md whitespace-nowrap ${
+                location.pathname === '/milestone'
+                  ? 'text-blue-500 bg-blue-50'
+                  : 'text-gray-600 hover:text-blue-500'
+              }`}
+            >
+              發展里程碑
+            </Link>
           </div>
         </div>
       </div>

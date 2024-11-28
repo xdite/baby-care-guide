@@ -24,6 +24,7 @@ function App() {
             <Route path="/sleep" element={<SleepPage />} />
             <Route path="/soothing" element={<SoothingPage />} />
             <Route path="/illness" element={<IllnessPage />} />
+            <Route path="/milestone" element={<MilestonePage />} />
           </Routes>
         </main>
       </div>
