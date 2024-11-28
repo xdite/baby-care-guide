@@ -8,4 +8,4 @@ export const MilestonePage: React.FC = () => {
       <MilestoneGuide />
     </div>
   );
-};
+}; 

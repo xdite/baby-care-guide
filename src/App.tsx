@@ -8,6 +8,7 @@ import { BathPage } from '@/pages/BathPage';
 import { SleepPage } from '@/pages/SleepPage';
 import { SoothingPage } from '@/pages/SoothingPage';
 import { IllnessPage } from '@/pages/IllnessPage';
+import { MilestonePage } from '@/pages/MilestonePage';
 
 function App() {
   return (
